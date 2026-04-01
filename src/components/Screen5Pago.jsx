@@ -272,7 +272,7 @@ export default function Screen5Pago({ quoteData, selectedOption, registrationDat
             </div>
           ) : null}
 
-          {isDeposit ? (
+          {isDeposit?(
             <div className="flex justify-end border-t border-slate-200 pt-6">
               <button
                 type="submit"
